@@ -1,0 +1,7 @@
+---
+- hosts: groupconsig
+  remote_user: marcossoares
+  become: yes
+  roles:
+  - docker
+  - mariadb-docker

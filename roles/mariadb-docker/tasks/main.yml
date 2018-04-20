@@ -1,0 +1,6 @@
+---
+# tasks file for mariadb-docker
+
+- name: pull an image
+  docker_image:
+    name: mariadb
